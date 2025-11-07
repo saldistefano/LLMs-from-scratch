@@ -1,5 +1,5 @@
-# Install PyTorch 2.5 with CUDA 12.4
-FROM pytorch/pytorch:2.5.0-cuda12.4-cudnn9-runtime
+# Install PyTorch
+FROM pytorch/pytorch:latest
 
 # Install Ubuntu packages
 RUN apt-get update && \
