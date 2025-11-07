@@ -1,5 +1,5 @@
 # Install PyTorch
-FROM pytorch/pytorch:latest
+FROM  --platform=arm64 pytorch/pytorch:latest
 
 # Install Ubuntu packages
 RUN apt-get update && \
